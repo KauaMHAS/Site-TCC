@@ -20,7 +20,7 @@
 
 .sobre-quem-aside {
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 28px;
   display: flex;
@@ -38,7 +38,7 @@
   width: 34px;
   height: 34px;
   border-radius: 8px;
-  background: #EAF3DE;
+  background: #E0AAFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +62,7 @@
 /* ── Nossa História ── */
 .sobre-historia {
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 32px;
 }
@@ -77,11 +77,11 @@
 .sobre-historia p:last-child { margin-bottom: 0; }
 
 .sobre-historia blockquote {
-  border-left: 2px solid #C0DD97;
+  border-left: 2px solid #C77DFF;
   margin: 20px 0;
   padding-left: 18px;
   font-size: 15px;
-  color: #3B6D11;
+  color: #5A189A;
   font-style: italic;
   line-height: 1.7;
 }
@@ -95,26 +95,26 @@
 
 .sobre-mvv-card {
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 24px;
   transition: border-color 0.2s;
 }
 
-.sobre-mvv-card:hover { border-color: #b0b0a8; }
+.sobre-mvv-card:hover { border-color: #9D4EDD; }
 
 .sobre-mvv-icon { font-size: 22px; margin-bottom: 14px; }
 
 .sobre-mvv-label {
   font-size: 11px;
   font-weight: 500;
-  color: #3B6D11;
+  color: #5A189A;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   margin-bottom: 6px;
 }
 
-.sobre-mvv-card h3 { font-size: 15px; font-weight: 500; margin-bottom: 8px; }
+.sobre-mvv-card h3 { font-size: 15px; font-weight: 500; margin-bottom: 8px; color: #1a1a1a; }
 .sobre-mvv-card p  { font-size: 13px; color: #666; line-height: 1.6; }
 
 /* ── Valores ── */
@@ -126,19 +126,19 @@
 
 .sobre-valor {
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 20px;
   transition: border-color 0.2s;
 }
 
-.sobre-valor:hover { border-color: #b0b0a8; }
+.sobre-valor:hover { border-color: #9D4EDD; }
 
 .sobre-valor-icon {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  background: #EAF3DE;
+  background: #E0AAFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,7 +146,7 @@
   margin-bottom: 12px;
 }
 
-.sobre-valor h4 { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+.sobre-valor h4 { font-size: 14px; font-weight: 500; margin-bottom: 4px; color: #1a1a1a; }
 .sobre-valor p  { font-size: 12px; color: #666; line-height: 1.5; }
 
 /* ── Diferenciais ── */
@@ -160,24 +160,24 @@
   display: flex;
   gap: 16px;
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 22px;
   transition: border-color 0.2s;
 }
 
-.sobre-dif-item:hover { border-color: #b0b0a8; }
+.sobre-dif-item:hover { border-color: #9D4EDD; }
 
 .sobre-dif-num {
   font-size: 11px;
   font-weight: 500;
-  color: #3B6D11;
+  color: #5A189A;
   letter-spacing: 1px;
   flex-shrink: 0;
   padding-top: 3px;
 }
 
-.sobre-dif-item h4 { font-size: 14px; font-weight: 500; margin-bottom: 5px; }
+.sobre-dif-item h4 { font-size: 14px; font-weight: 500; margin-bottom: 5px; color: #1a1a1a; }
 .sobre-dif-item p  { font-size: 13px; color: #666; line-height: 1.6; }
 
 /* ── Equipe ── */
@@ -189,35 +189,35 @@
 
 .sobre-membro {
   background: #ffffff;
-  border: 0.5px solid #e0e0d8;
+  border: 0.5px solid #C77DFF;
   border-radius: 12px;
   padding: 24px;
   text-align: center;
   transition: border-color 0.2s;
 }
 
-.sobre-membro:hover { border-color: #b0b0a8; }
+.sobre-membro:hover { border-color: #9D4EDD; }
 
 .sobre-avatar {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background: #EAF3DE;
-  border: 0.5px solid #C0DD97;
+  background: #E0AAFF;
+  border: 0.5px solid #C77DFF;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
   font-weight: 500;
-  color: #27500A;
+  color: #3C096C;
   margin: 0 auto 14px;
 }
 
-.sobre-membro h4 { font-size: 14px; font-weight: 500; margin-bottom: 3px; }
+.sobre-membro h4 { font-size: 14px; font-weight: 500; margin-bottom: 3px; color: #1a1a1a; }
 
 .sobre-membro-role {
   font-size: 12px;
-  color: #3B6D11;
+  color: #5A189A;
   font-weight: 500;
   margin-bottom: 6px;
 }
@@ -234,3 +234,45 @@
   .sobre-mvv  { grid-template-columns: 1fr; }
   .sobre-dif  { grid-template-columns: 1fr; }
 }
+
+.sobre-avatar img {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sobre-membro--leader {
+    position: relative;
+    overflow: visible;
+}
+
+.sobre-membro-badge {
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: white;
+    padding: 6px 14px;
+    border-radius: 999px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #7c3aed;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    white-space: nowrap;
+    border: 0.5px solid #C77DFF;
+    border-radius: 12px;
+}
+
+.sobre-membro-badge-icon {
+    font-size: 16px;
+}
+
+
