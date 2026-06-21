@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { RevealDirective } from './directives/reveal.directive';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.html'
+  imports: [RouterOutlet, RevealDirective],
+  templateUrl: './app.html',
+  styleUrl: './app.css'
 })
-export class AppComponent {
-  
-}
+export class App {}
