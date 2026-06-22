@@ -1,0 +1,23 @@
+footer {
+  border-top: 1px solid rgba(199, 125, 255, 0.15);
+  padding: 28px var(--px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: #fff;
+}
+
+footer p { font-size: 12px; color: #aaa; }
+
+.footer-links { display: flex; gap: 18px; }
+
+.footer-links a {
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover { color: var(--brand); }

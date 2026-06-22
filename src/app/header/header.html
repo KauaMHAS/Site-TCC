@@ -1,0 +1,19 @@
+<nav [class.scrolled]="scrolled">
+  <div class="nav-logo" routerLink="/">
+    <div class="nav-logo-box">📚</div>
+    TrocaLivros
+  </div>
+
+  <div class="nav-links">
+    <a class="nav-link" routerLink="/" fragment="oque">O que é</a>
+    <a class="nav-link" routerLink="/" fragment="como">Como funciona</a>
+    <a class="nav-link" routerLink="/" fragment="beneficios">Benefícios</a>
+  </div>
+
+  <div class="nav-right">
+    <a class="sobre-link" routerLink="/sobre" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Sobre
+    </a>
+    <button class="nav-cta">Download</button>
+  </div>
+</nav>
