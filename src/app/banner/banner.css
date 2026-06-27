@@ -1,0 +1,99 @@
+.hero {
+  background: linear-gradient(150deg, #100028 0%, #240046 55%, #3C096C 100%);
+  border-bottom: 1px solid rgba(199, 125, 255, 0.1);
+  padding: clamp(80px, 9vw, 120px) var(--px) clamp(70px, 8vw, 100px);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-blob-1 {
+  width: 540px;
+  height: 540px;
+  background: radial-gradient(circle, rgba(157, 78, 221, 0.16), transparent 70%);
+  top: -160px;
+  left: -140px;
+  animation: blobFloat 7s ease-in-out infinite;
+}
+
+.hero-blob-2 {
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(123, 44, 191, 0.13), transparent 70%);
+  bottom: -110px;
+  right: -90px;
+  animation: blobFloat 9s ease-in-out infinite;
+  animation-delay: -3s;
+}
+
+.hero-blob-3 {
+  width: 240px;
+  height: 240px;
+  background: radial-gradient(circle, rgba(199, 125, 255, 0.1), transparent 70%);
+  top: 40%;
+  right: 18%;
+  animation: blobFloat 6s ease-in-out infinite;
+  animation-delay: -1.5s;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(224, 170, 255, 0.1);
+  color: var(--brand-glow);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 16px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(199, 125, 255, 0.22);
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 5vw, 58px);
+  font-weight: 800;
+  line-height: 1.06;
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: -1.5px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.25s;
+  opacity: 0;
+}
+
+.hero-accent {
+  background: linear-gradient(90deg, var(--brand-pale), var(--brand-glow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero p {
+  font-size: 17px;
+  color: rgba(224, 170, 255, 0.7);
+  line-height: 1.72;
+  max-width: 540px;
+  margin: 0 auto 36px;
+  animation: fadeUp 0.7s ease both;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
