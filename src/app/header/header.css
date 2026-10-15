@@ -52,6 +52,12 @@ nav.scrolled {
   transform: translateX(-50%);
 }
 
+.nav-logo-img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
 /* ── .nav-link e .sobre-link compartilham os mesmos estilos ── */
 .nav-link,
 .sobre-link {
